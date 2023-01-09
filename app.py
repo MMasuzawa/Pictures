@@ -36,7 +36,7 @@ if img_file is not None:
              #st.write(str(round(result[2]*100, 2)) + "%の確率で" + result[0] + "です。")
               st.write(result[0] + "顔です。")
 
-              if result[0] = "犬"
+              if result[0] = "犬":
               st.write("犬顔")
 
         # 円グラフの表示
