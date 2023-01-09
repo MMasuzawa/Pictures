@@ -29,7 +29,8 @@ if img_file is not None:
 
         # 結果の表示
         st.subheader("判定結果")
-        n_top = 3  # 確率が高い順に3位まで返す
+       # n_top = 3  # 確率が高い順に3位まで返す
+        n_top = 1  # 確率が高い順に3位まで返す
         for result in results[:n_top]:
             
              #st.write(str(round(result[2]*100, 2)) + "%の確率で" + result[0] + "です。")
