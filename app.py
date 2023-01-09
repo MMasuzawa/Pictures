@@ -7,7 +7,7 @@ from model import predict
 st.set_option("deprecation.showfileUploaderEncoding", False)
 
 st.sidebar.title("画像認識アプリ")
-st.sidebar.write("オリジナルの画像認識モデルを使って何の画像かを判定します。")
+st.sidebar.write("動物に例えたら何顔か判定")
 
 st.sidebar.write("")
 
@@ -34,7 +34,7 @@ if img_file is not None:
         for result in results[:n_top]:
             
              #st.write(str(round(result[2]*100, 2)) + "%の確率で" + result[0] + "です。")
-              st.write(result[0] + "です。")
+              st.write(result[0] + "顔です。")
 
         # 円グラフの表示
         #pie_labels = [result[1] for result in results[:n_top]]
