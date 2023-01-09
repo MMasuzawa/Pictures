@@ -38,7 +38,7 @@ if img_file is not None:
             elif result[0]=="猫":
              st.write(result[0] + "顔です。")
             else:
-             st.write("どちらでもない")
+             st.write("犬顔でも猫顔でもない")
 
         # 円グラフの表示
         #pie_labels = [result[1] for result in results[:n_top]]
