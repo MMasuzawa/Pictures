@@ -35,9 +35,7 @@ if img_file is not None:
             if result[0]=="犬" or "猫":
              #st.write(str(round(result[2]*100, 2)) + "%の確率で" + result[0] + "です。")
               st.write(result[0] + "顔です。")
-            elif: 
-              st.write(”どちらでもありません")
-          
+            
 
         # 円グラフの表示
         #pie_labels = [result[1] for result in results[:n_top]]
