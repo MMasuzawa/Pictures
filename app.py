@@ -7,7 +7,7 @@ from model import predict
 st.set_option("deprecation.showfileUploaderEncoding", False)
 
 st.sidebar.title("画像認識アプリ")
-st.sidebar.write("動物に例えたら何顔か判定")
+st.sidebar.write("犬顔か猫顔か判定")
 
 st.sidebar.write("")
 
